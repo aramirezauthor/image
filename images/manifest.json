@@ -1,0 +1,66 @@
+{
+  "id" : "https://aramirezauthor.github.io/image/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in aramirezauthor/image project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1500,
+    "id" : "https://aramirezauthor.github.io/image/images/portada/canvas/",
+    "label" : {
+      "none" : [ "portada" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://aramirezauthor.github.io/image/images/portada/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://aramirezauthor.github.io/image/images/portada/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 47,
+              "height" : 31
+            }, {
+              "width" : 94,
+              "height" : 61
+            }, {
+              "width" : 188,
+              "height" : 121
+            }, {
+              "width" : 375,
+              "height" : 242
+            }, {
+              "width" : 750,
+              "height" : 483
+            }, {
+              "width" : 1500,
+              "height" : 966
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1500,
+            "@id" : "https://aramirezauthor.github.io/image/images/portada",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 966
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1500,
+          "id" : "https://aramirezauthor.github.io/image/images/portada/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 966
+        },
+        "target" : "https://aramirezauthor.github.io/image/images/portada/canvas/"
+      } ]
+    } ],
+    "height" : 966
+  } ]
+}
